@@ -122,7 +122,7 @@ header{
   background-repeat: no-repeat;
   /* background-attachment: fixed;
   background-position: center; */
-  background-size: cover;
+  /* background-size: cover; */
   grid-column: 1/-1;
   grid-row: 1/span 1;
   
@@ -189,7 +189,9 @@ header{
   padding: 30px;
 
   /* Your code here */
-  text-align: center;
+  /* text-align: center; */
+  align-self: center;
+  
   
 }
 
@@ -199,6 +201,7 @@ header{
 
     /* Your code here */
     text-align: right;
+    align-self: center;
   }
 
   .container{
